@@ -46,11 +46,13 @@ This is the foundation of the entire TriadSec project.
   - Final IP List  
   - Network Diagram  
   - VM Configuration File  
-  - Connectivity Test Results  
+  - Connectivity Test Results
+
 
 ---
 
 ## 📁 Repository Contents
+
 /network-analyst-team
 │── topology-diagrams/
 │── vm-configs/

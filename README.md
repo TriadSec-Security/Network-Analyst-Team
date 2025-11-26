@@ -1,10 +1,10 @@
-# 🛰️ Network-Analyst-Team  
+# 🛰 Network-Analyst-Team  
 ### Cybersecurity Lab Architect & Network Engineer  
 Part of the TriadSec Virtualized Attack & Defense Lab
 
 ---
 
-## ⭐ Official Role Title  
+## ⭐️ Official Role Title  
 Cybersecurity Lab Architect & Network Engineer
 
 ## 🎯 Role Summary  
@@ -14,7 +14,7 @@ This is the foundation of the entire TriadSec project.
 
 ---
 
-## 🛠️ Core Responsibilities
+## 🛠 Core Responsibilities
 
 ### 🔧 1. Virtual Machine Setup  
 - Install and configure all required VMs:  
@@ -46,34 +46,61 @@ This is the foundation of the entire TriadSec project.
   - Final IP List  
   - Network Diagram  
   - VM Configuration File  
-  - Connectivity Test Results
-
+  - Connectivity Test Results  
 
 ---
 
 ## 📁 Repository Contents
 
-/network-analyst-team
-│── topology-diagrams/
-│── vm-configs/
-│── network-tests/
-│── connectivity-report.txt
-│── ip-address-map.txt
-│── README.md
+The repository follows a clean, consistent structure to make collaboration and automation simple. All folder names use kebab-case and files are grouped by purpose.
+
+network-analyst-team/
+├── docs/
+│   ├── topology-diagrams/        # Network diagrams (PNG, SVG, draw.io)
+│   ├── setup-guides/             # Step-by-step VM & network setup guides
+│   └── connectivity-reports/     # Final test reports and logs
+├── configs/
+│   ├── vm-configs/               # VirtualBox/VMX/OVF configs, Vagrantfiles
+│   ├── network-configs/          # Host-only/internal network configs, DHCP
+│   └── firewall-rules/           # Example iptables/ufw rules
+├── scripts/
+│   ├── provisioning/             # Scripts to provision VMs (bash/ansible)
+│   └── test-scripts/             # ping/iptables/test automation scripts
+├── tests/
+│   ├── connectivity/             # ping, traceroute, route checks
+│   └── monitoring-capture/       # tcpdump / tshark sample captures
+├── .gitignore
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── README.md
+└── ip-address-map.txt            # Final static IP assignment table
+
+> Note: Put large VM images or ISO files in external storage (Google Drive/OneDrive) and reference download links in docs/setup-guides/ rather than committing large binaries to the repo.
 
 ---
 
 ## 🧠 What This Role Demonstrates  
-✔ Strong foundational networking knowledge  
-✔ Ability to build full security labs  
-✔ DevSecOps-style environment deployment  
-✔ Understanding of OSI layers, routing, and interfaces  
-✔ System administration & virtualization skills  
+✔️ Strong foundational networking knowledge  
+✔️ Ability to build full security labs  
+✔️ DevSecOps-style environment deployment  
+✔️ Understanding of OSI layers, routing, and interfaces  
+✔️ System administration & virtualization skills  
 
 Perfect for roles like:  
 - Junior Network Engineer  
 - SOC Technician  
 - DevSecOps Intern  
 - Cybersecurity Lab Engineer  
+
+---
+
+## 🏆 Contribution to TriadSec  
+Every attack and vulnerability test relies on your network setup.  
+Your work ensures the entire team operates on:  
+- A stable  
+- Secure  
+- Repeatable  
+- Realistic  
+cybersecurity simulation environment.
 
 ---

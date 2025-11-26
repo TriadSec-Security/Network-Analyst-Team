@@ -54,6 +54,7 @@ This is the foundation of the entire TriadSec project.
 
 The repository follows a clean, consistent structure to make collaboration and automation simple. All folder names use kebab-case and files are grouped by purpose.
 
+
 network-analyst-team/
 ├── docs/
 │   ├── topology-diagrams/        # Network diagrams (PNG, SVG, draw.io)
@@ -74,6 +75,7 @@ network-analyst-team/
 ├── SECURITY.md
 ├── README.md
 └── ip-address-map.txt            # Final static IP assignment table
+
 
 > Note: Put large VM images or ISO files in external storage (Google Drive/OneDrive) and reference download links in docs/setup-guides/ rather than committing large binaries to the repo.
 
